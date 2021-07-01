@@ -14,7 +14,7 @@ string ari(string s){
         num_char++;
       if(s[i]==' ')
         num_word++;
-      if(s[i]=='!'&&'s[i]=='.')
+      if(s[i]=='!'||'s[i]=='.')
         num_sent++;
         }
     //ARI value formula
